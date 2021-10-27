@@ -42,7 +42,7 @@ import com.google.gwt.view.client.SingleSelectionModel;
  */
 public class Prueba implements EntryPoint {
 	
-	private final CalculadoraImplService BDService = GWT.create(Calculadora.class);
+	private final CalculadoraAsync calcService = GWT.create(com.ceiba.prueba.client.Calculadora.class);
 
 	public void onModuleLoad() {
 		//Controls
@@ -53,8 +53,24 @@ public class Prueba implements EntryPoint {
 
 			    btnSumar.addClickHandler( new ClickHandler() {
 			        public void onClick(ClickEvent event) {
-			        	String nombres =num1.getText();
-			        	String apellidos =num2.getText();
+			        	Double numero1 = Double.parseDouble(num1.getText());
+			        	Double numero2 = Double.parseDouble(num2.getText());
+			        	
+			        	try {
+							calcService.suma(numero1, numero2, new AsyncCallback<Double>() {
+								@Override
+								public void onFailure(Throwable caught) {							
+								}
+								@Override
+								public void onSuccess(Double result) {	
+									 GWT.log(String.valueOf(result));
+								}				
+							});
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+			        	
 			        	
 			        }
 			      });
