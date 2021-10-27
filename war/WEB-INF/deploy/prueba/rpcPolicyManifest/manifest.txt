@@ -1,0 +1,3 @@
+# Module prueba
+# RPC service class, partial path of RPC policy file
+com.ceiba.prueba.client.BD, 0269B68F885AD92550EA70FC644EE461.gwt.rpc

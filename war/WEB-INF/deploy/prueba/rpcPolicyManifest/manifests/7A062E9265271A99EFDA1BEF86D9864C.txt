@@ -1,0 +1,2 @@
+serviceClass: com.ceiba.prueba.client.BD
+path: 0269B68F885AD92550EA70FC644EE461.gwt.rpc
