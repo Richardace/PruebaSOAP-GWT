@@ -56,19 +56,6 @@ public class Prueba implements EntryPoint {
 			        	String nombres =num1.getText();
 			        	String apellidos =num2.getText();
 			        	
-			        	
-			        	
-			        	
-//			        	CalculadoraImplService prueba = new CalculadoraImplService();
-//			        	Calculadora calc = prueba.getCalculadoraImplPort();
-			        	
-			        	
-			        	
-//			        	Calculadora calc = GWT.create(CalculadoraImplService.class);
-//			        	double suma = calc.suma(2, 2);
-			        	
-//			        	GWT.log(String.valueOf(calc.suma(1, 1)));
-			        	
 			        }
 			      });
 			    

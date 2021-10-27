@@ -7,13 +7,13 @@
 
   <!-- Servlets -->
   	<servlet>
-		<servlet-name>BD</servlet-name>
-		<servlet-class>expo5.server.BDImpl</servlet-class>
+		<servlet-name>CALCULADORA</servlet-name>
+		<servlet-class>com.ceiba.prueba.server.Calculadoras</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>BD</servlet-name>
-		<url-pattern>/expo5/BD</url-pattern>
+		<servlet-name>CALCULADORA</servlet-name>
+		<url-pattern>/Prueba/Calculadora</url-pattern>
 	</servlet-mapping>
 
   
