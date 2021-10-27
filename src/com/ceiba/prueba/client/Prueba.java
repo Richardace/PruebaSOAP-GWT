@@ -3,8 +3,6 @@ package com.ceiba.prueba.client;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ceiba.cxf.services.dto.Calculadora;
-import com.ceiba.cxf.services.dto.CalculadoraImplService;
 import com.ceiba.prueba.shared.Alumno;
 import com.gargoylesoftware.htmlunit.javascript.host.Window;
 import com.google.gwt.core.client.EntryPoint;
@@ -42,7 +40,7 @@ import com.google.gwt.view.client.SingleSelectionModel;
  */
 public class Prueba implements EntryPoint {
 	
-	private final CalculadoraAsync calcService = GWT.create(com.ceiba.prueba.client.Calculadora.class);
+	private final CalculadoraAsync calcService = GWT.create(Calculadora.class);
 
 	public void onModuleLoad() {
 		//Controls

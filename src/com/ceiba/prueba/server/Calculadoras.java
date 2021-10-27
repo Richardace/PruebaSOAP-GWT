@@ -8,8 +8,8 @@ public class Calculadoras extends RemoteServiceServlet implements com.ceiba.prue
 
 	@Override
 	public double suma(double arg0, double arg1) {
-		CalculadoraImplService calculadoraService = new CalculadoraImplService();
-    	Calculadora consumer = calculadoraService.getCalculadoraImplPort();
+//		CalculadoraImplService calculadoraService = new CalculadoraImplService();
+//    	Calculadora consumer = calculadoraService.getCalculadoraImplPort();
 		return 0;
 	}
 
