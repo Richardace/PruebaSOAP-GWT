@@ -6,15 +6,7 @@
          xmlns="http://java.sun.com/xml/ns/javaee">
 
   <!-- Servlets -->
- <servlet>
-    <servlet-name>BD</servlet-name>
-    <servlet-class>com.ceiba.prueba.server.BDImpl</servlet-class>
-  </servlet>
-    
-    <servlet-mapping>
-    <servlet-name>BD</servlet-name>
-    <url-pattern>/prueba/BD</url-pattern>
-  </servlet-mapping>
+
   
   <!-- Default page to serve -->
   <welcome-file-list>
