@@ -40,7 +40,7 @@ import com.google.gwt.view.client.SingleSelectionModel;
  */
 public class Prueba implements EntryPoint {
 	
-	private final CalculadoraAsync calcService = GWT.create(Calculadora.class);
+	private final CalcAsync calcService = GWT.create(Calc.class);
 
 	public void onModuleLoad() {
 		//Controls

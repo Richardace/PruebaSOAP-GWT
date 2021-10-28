@@ -7,13 +7,13 @@
 
   <!-- Servlets -->
   	<servlet>
-		<servlet-name>CALCULADORA</servlet-name>
-		<servlet-class>com.ceiba.prueba.server.Calculadoras</servlet-class>
+		<servlet-name>SUMA</servlet-name>
+		<servlet-class>com.ceiba.prueba.server.CalculadoraImpl</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>CALCULADORA</servlet-name>
-		<url-pattern>/Prueba/Calculadora</url-pattern>
+		<servlet-name>SUMA</servlet-name>
+		<url-pattern>/Prueba/SUMA</url-pattern>
 	</servlet-mapping>
 
   
